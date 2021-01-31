@@ -1,0 +1,103 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    background-image: url("https://bars-stroy.kz/upload/iblock/852/852f6bc79617f93b7552ab6def90e79c.jpg");
+}
+a, a:visited{
+    color: rgb(35, 48, 88);
+  }
+  
+  a:hover{
+    color:rgb(167, 175, 187);
+  }
+  
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(197, 197, 212);
+  }
+  
+  .li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(58, 48, 119);
+    text-align: right;
+    padding: 40px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: fantasy;
+  }
+
+.head {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(201, 198, 216);
+    font-family: fantasy;
+    background-color: rgb(171, 174, 194);
+}
+
+.contain {
+    background-image: hr;
+}
+.nesolestag-enadenud {
+    width: 615px;
+    margin: 0 auto;
+  }
+  
+  .kesednsoled:after,
+  .kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  .ico-wrap {
+    color: #9c9dad;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #8b97a8;
+    float: left;
+    border-radius: 40px;
+  }
+  .ico-contact {
+    line-height: 1.9 !important;
+  }
+  .meanous-andscoev {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .aio-icon-title {
+    font-size: 30px;
+    color: #262752;
+    line-height: 1;
+    margin-bottom: 8px;
+    
+  }
+  
+  @media (max-width: 767px) {
+    .meanous-andscoev,
+    .ico-wrap {
+    float: none;
+    text-align: center;
+    }
+    .ico-wrap {
+    margin: 0 auto 15px auto;
+    }
+  }
